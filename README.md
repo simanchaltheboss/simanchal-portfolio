@@ -1,0 +1,5 @@
+im thinking to make a portfolio website for my self
+im Simanchal Bordoloi but im thinking to make a portfolio website for my self
+i make websites and i want to make a portfolio website for my self
+i make websites for my clients and i want to make a portfolio website for my self
+i make also wordpress contents, write blogs. i made a csc toolkit website,inventory management system,promptshelf.in wrbsite for AI photo prompts also i made it user can submit their prompt and show their normal photo and ai generated photo (result). aalso make many projects. aloso i can help locL business to make their website and digital presence. i want to make a portfolio website for my self. I RECENTLY ALSO MAKE a website for a fast food shop  where user can place order online so i ccan alo make e-commerce website too. 
