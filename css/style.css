@@ -476,6 +476,12 @@ footer {
 /* ==========================================================================
    Floating CTA (WhatsApp)
    ========================================================================== */
+@keyframes pulse-whatsapp {
+    0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); transform: scale(1); }
+    50% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); transform: scale(1.05); }
+    100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); transform: scale(1); }
+}
+
 .floating-cta {
     position: fixed;
     bottom: 2rem;
@@ -492,12 +498,14 @@ footer {
     box-shadow: 0 4px 10px rgba(37, 211, 102, 0.4);
     z-index: 999;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: pulse-whatsapp 2.5s infinite ease-in-out;
 }
 
 .floating-cta:hover {
-    transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 6px 15px rgba(37, 211, 102, 0.6);
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.8);
     color: white;
+    animation: none;
 }
 
 .cta-tooltip {
