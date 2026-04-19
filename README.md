@@ -30,7 +30,7 @@ The portfolio actively highlights key engineering solutions that prove enterpris
 To run this project locally, you do not need any package managers or server runtimes. Simply clone the repository and open it in your browser.
 
 ```bash
-git clone https://github.com/your-username/simanchal-portfolio.git
+git clone https://github.com/simanchaltheboss/simanchal-portfolio.git
 cd simanchal-portfolio
 # Open index.html directly in your browser or run via VSCode Live Server.
 ```
