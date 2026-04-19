@@ -18,6 +18,11 @@
   </p>
 </div>
 
+* **Structure:** Semantic HTML5
+* **Styling:** Vanilla CSS (with native CSS variables and glassmorphism effects)
+* **Logic & Interactivity:** Vanilla JavaScript
+* **SEO:** Embedded LocalBusiness JSON-LD Schema targeting Assam regions
+* **Analytics:** Vercel Web Analytics for privacy-focused visitor tracking
 ---
 
 ## 📖 Table of Contents
@@ -52,6 +57,21 @@ The codebase possesses hardcoded edge optimizations aimed specifically at the As
 * Implementation of `ProfessionalService` JSON-LD structured data mapping.
 * Hard-coded Geo-targeting for **Guwahati, Tezpur, Nagaon, and Dhekiajuli**.
 * Semantic hierarchy targeting WooCommerce and Custom Service keywords.
+
+### Optional: Install Dependencies
+If you want to install the analytics package for potential future bundling:
+```bash
+npm install
+```
+
+## 📊 Analytics
+This project uses Vercel Web Analytics for privacy-focused visitor tracking. The analytics script is loaded via CDN and requires no configuration. Once deployed to Vercel, analytics will automatically start tracking:
+- Page views
+- Unique visitors
+- Referrer information
+- Device and browser data
+
+Analytics data is available in your Vercel dashboard after enabling Web Analytics for your project.
 
 ---
 

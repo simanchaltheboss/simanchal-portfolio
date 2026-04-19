@@ -1,0 +1,22 @@
+{
+  "name": "simanchal-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Simanchal Bordoloi - AI-Leveraged Web Engineer",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build step required'",
+    "start": "npx serve .",
+    "lint": "echo 'No linter configured yet'"
+  },
+  "keywords": [
+    "portfolio",
+    "web-developer",
+    "assam"
+  ],
+  "author": "Simanchal Bordoloi",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
