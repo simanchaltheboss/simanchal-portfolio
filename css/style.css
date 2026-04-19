@@ -164,8 +164,9 @@ p {
 }
 .btn-primary:hover {
     background-color: var(--primary-hover);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px -10px var(--primary);
+    filter: brightness(1.1);
 }
 
 .btn-primary-outline {
@@ -176,6 +177,8 @@ p {
 .btn-primary-outline:hover {
     background-color: var(--primary);
     color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px -10px var(--primary);
 }
 
 .btn-secondary {
@@ -184,7 +187,11 @@ p {
     border: 1px solid var(--border-color);
 }
 .btn-secondary:hover {
-    background-color: var(--border-color);
+    background-color: var(--bg-alt);
+    border-color: var(--primary);
+    color: var(--primary);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
 }
 
 .w-100 { width: 100%; }
@@ -202,9 +209,13 @@ p {
 }
 
 .card:hover, .service-box:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     border-color: var(--primary);
+}
+
+[data-theme="dark"] .card:hover, [data-theme="dark"] .service-box:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.6);
 }
 
 .work-card {
@@ -224,7 +235,7 @@ p {
 }
 
 .work-card:hover .card-img {
-    transform: scale(1.05); /* Subtle zoom effect */
+    transform: scale(1.08) translateY(-5px);
 }
 
 /* ==========================================================================
@@ -281,6 +292,7 @@ p {
 
 .nav-links a:hover:not(.btn-primary-outline) {
     color: var(--primary);
+    transform: translateY(-1px);
 }
 
 .theme-toggle {
@@ -298,6 +310,8 @@ p {
 }
 .theme-toggle:hover {
     background-color: var(--bg-alt);
+    transform: rotate(15deg) scale(1.1);
+    color: var(--primary);
 }
 
 /* ==========================================================================
@@ -452,6 +466,7 @@ footer {
 }
 .footer-socials a:hover {
     color: var(--primary);
+    transform: translateY(-3px) scale(1.2);
 }
 
 /* ==========================================================================
