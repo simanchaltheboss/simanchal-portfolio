@@ -108,7 +108,7 @@ This repository visually highlights enterprise-grade engineering solutions:
 
 ## 📫 Contact
 
-Simanchal Bordoloi - [hello@simanchal.online](mailto:hello@simanchal.online)
+Simanchal Bordoloi - [simanchal.web@gmail.com](mailto:simanchal.web@gmail.com)
 
 Project Link: [https://github.com/simanchaltheboss/simanchal-portfolio](https://github.com/simanchaltheboss/simanchal-portfolio)
 
