@@ -12,6 +12,7 @@ This project purposely avoids heavy JavaScript frameworks (like React/Next) in f
 * **Styling:** Vanilla CSS (with native CSS variables and glassmorphism effects)
 * **Logic & Interactivity:** Vanilla JavaScript
 * **SEO:** Embedded LocalBusiness JSON-LD Schema targeting Assam regions
+* **Analytics:** Vercel Web Analytics for privacy-focused visitor tracking
 
 ## ✨ Key Features
 - **Fluid Light / Dark Mode Engine:** Seamless theme toggling with `localStorage` preference caching.
@@ -34,6 +35,21 @@ git clone https://github.com/simanchaltheboss/simanchal-portfolio.git
 cd simanchal-portfolio
 # Open index.html directly in your browser or run via VSCode Live Server.
 ```
+
+### Optional: Install Dependencies
+If you want to install the analytics package for potential future bundling:
+```bash
+npm install
+```
+
+## 📊 Analytics
+This project uses Vercel Web Analytics for privacy-focused visitor tracking. The analytics script is loaded via CDN and requires no configuration. Once deployed to Vercel, analytics will automatically start tracking:
+- Page views
+- Unique visitors
+- Referrer information
+- Device and browser data
+
+Analytics data is available in your Vercel dashboard after enabling Web Analytics for your project.
 
 ---
 *Developed with precision and AI-accelerated workflows.*
