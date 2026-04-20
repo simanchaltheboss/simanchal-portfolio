@@ -471,6 +471,130 @@ p {
 }
 
 /* ==========================================================================
+   Process Section
+   ========================================================================== */
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+}
+
+.process-step {
+    position: relative;
+    padding: 2rem;
+    background: var(--bg-card);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    transition: var(--transition);
+}
+
+.process-step:hover {
+    border-color: var(--primary);
+    transform: translateY(-5px);
+}
+
+.step-num {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: rgba(79, 70, 229, 0.1);
+    margin-bottom: 1rem;
+    line-height: 1;
+}
+
+[data-theme="dark"] .step-num {
+    color: rgba(129, 140, 248, 0.1);
+}
+
+/* ==========================================================================
+   Project Card Enhancements
+   ========================================================================== */
+.card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.result-badge {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #10B981; /* Success Green */
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+[data-theme="dark"] .result-badge {
+    color: #34D399;
+}
+
+/* ==========================================================================
+   Testimonials
+   ========================================================================== */
+.testimonial-card {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.quote-icon {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    opacity: 0.5;
+}
+
+.testimonial-card p {
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: var(--text-main);
+}
+
+.client-info strong {
+    display: block;
+    font-size: 1rem;
+    color: var(--text-main);
+}
+
+.client-info span {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* ==========================================================================
+   FAQ Section
+   ========================================================================== */
+.faq-container {
+    margin-top: 2rem;
+}
+
+.faq-item {
+    background: var(--bg-card);
+    padding: 2.5rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    transition: var(--transition);
+}
+
+.faq-item:hover {
+    border-color: var(--primary);
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.faq-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+}
+
+.faq-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ==========================================================================
    Footer
    ========================================================================== */
 footer {
