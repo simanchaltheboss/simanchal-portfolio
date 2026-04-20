@@ -712,6 +712,16 @@ footer {
     box-shadow: var(--shadow-sm);
 }
 
+.red-dot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+}
+
 .floating-cta:hover .cta-tooltip {
     opacity: 1;
 }
